@@ -66,6 +66,16 @@ def read_input(filename):
     df.to_csv(filename.replace('.csv','_highconvasin.csv'),index=False)
     return df
 
+def get_sublist(conv1,conv_asin1,conv2,conv_asin2,conv3,conv_asin3):
+    var1=100
+    if conv1>=var1:
+        return conv_asin1
+    elif conv2>=var1:
+        return conv_asin2
+    elif conv3>=var1:
+        return conv_asin3
+    return "None"
+
 def my_html_processor(html, url):
     try:
         print('loaded: [%d chars] %s' % (len(html), url))

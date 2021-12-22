@@ -1,22 +1,7 @@
 Step 1: Apply Filter on all columns
-Step 2: # Not a good idea ## Exlusion list, filter out values by using URL column. Exclusing list file to be available with only one column "URL" which will have values to be removed from new sheet
+Step 2: Margin > 150
+Step 3: MRP < 5000
+Step 4: Margin% > 0.4
+
+Next Steps # Not a good idea ## Exlusion list, filter out values by using URL column. Exclusing list file to be available with only one column "URL" which will have values to be removed from new sheet
 #######Work on filter conditions############
-Step 2: Filter out all rows with Margin <150
-Step 3: Filter out all rows with Margin > 150 and < 300 with "Slab Available" = False
-Step 4: Change column "Margin %" to % values by multiplying 100
-Step 5: Sort by Margin Highest to Lowest
-Step 2:
-Step 2:
-Step 2:
-Step 2:
-Step 2:
-Step 2:
-Step 2:
-Step 2:
-Step 2:
-Step 2:
-Step 2:
-Step 2:
-Step 2:
-Step 2:
-Step 2:

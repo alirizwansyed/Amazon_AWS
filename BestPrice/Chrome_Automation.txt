@@ -1,0 +1,39 @@
+Sub Open_Chrome_Incognito()
+
+ Dim url1 As String, url2 As String, url3 As String, url4 As String, url5 As String, url6 As String, url7 As String, url8 As String, url9 As String, url10 As String
+ 
+ url1 = Range("A1").Text
+ url2 = Range("A2").Text
+ url3 = Range("A3").Text
+ url4 = Range("A4").Text
+ url5 = Range("A5").Text
+ url6 = Range("A6").Text
+ url7 = Range("A7").Text
+ url8 = Range("A8").Text
+ url9 = Range("A9").Text
+ url10 = Range("A10").Text
+
+ OpenChrome url1
+ OpenChrome url2
+ OpenChrome url3
+ OpenChrome url4
+ OpenChrome url5
+ OpenChrome url6
+ OpenChrome url7
+ OpenChrome url8
+ OpenChrome url9
+ OpenChrome url10
+
+End Sub
+
+Sub OpenChrome(url As String)
+    Dim chrome As String
+    On Error GoTo ErrMsg
+    chrome = "C:\Program Files\Google\Chrome\Application\chrome.exe -incognito -url"
+    Shell (chrome & " " & url)
+    Exit Sub
+ErrMsg:
+MsgBox "Chrome.exe path Broken!! Search for actual path and update it in the code"
+
+End Sub
+

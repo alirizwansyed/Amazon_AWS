@@ -1,0 +1,19 @@
+Selling_Price	XXX
+GST on SP	=18%*B1
+Purchase Price	XXX
+GST on PP	=18%*B3
+GST SP - GST PP	=(B2-B4)
+Amazon fee FBA	XXX
+Amazon fee FBM	XXX
+Advertising Cost	10
+Transport to Home	XXX
+Packing box size(kgs)	0.5
+Packing cost	15
+Transport to FBA	XXX
+Courier to FBM	XXX
+Labor Monthly	10
+Returns (10%)	TBD
+Total FBA	=(B1-B3-B5-B6-B8-B9-B11-B12-B14)
+FBA Profit %	=B16/(B1+B9+B11+B14)*100
+Total FBM	=(B1-B3-B5-B7-B8-B9-B11-B13-B14)
+FBM Profit %	=B17/(B1+B9+B11+B14)*100
